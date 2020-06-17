@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             for (int i : gameState){
                 if (i==-1){
                     boolie = true;
+                    break;
                 }
             }
             if (!boolie){
